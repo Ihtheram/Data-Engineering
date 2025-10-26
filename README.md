@@ -1,4 +1,4 @@
 # Data Engineering
-Study Materials for Artificial Intelligence
+Study Materials for Data Engineering
 
 **[⇐ Artificial Intelligence](https://github.com/Ihtheram/Artificial-Intelligence)**
