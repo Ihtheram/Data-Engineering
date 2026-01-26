@@ -129,3 +129,13 @@ Wrap up with targeted practice for job readiness.
 | **Interview Preparation** | Covers technical and behavioral questions. |
 | **SQL FAANG Problems / Python FAANG Problems** | High-level problem solving for top-tier interviews. |
 | **Data Modeling For Data Engineer Interview** | Deep dive into schema design and optimization. |
+
+
+## Data Engineering
+Data engineering is a blend of machine learning, algorithms, statistics, business intelligence, and programming.
+
+## Processing Data
+1. Acquiring Data
+2. Storing Data
+3. Finding Missing Values
+4. Wrangling / Munging Data - Extraction and Cleaning

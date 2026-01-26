@@ -1,0 +1,3 @@
+This is an example of writing to a file.
+File manipulation is essential in data engineering.
+Appending a new line to the file.
