@@ -1,10 +1,9 @@
 # Python Automation
 Documentation on Python Automation
 
-**[⇐ Data Engineering Fundamentals](./README.md)**
+**[⇐ Python Automation](./README.md)**
 
-## Python File Manipulation
----
+## File Manipulation
 
 * Get current working directory
     - `os.getcwd()`
@@ -81,8 +80,4 @@ with open("filepath",'a') as f:
 
 * Deleting a directory with contents
     - `shutil.rmtree("directorypath", ignore_errors=True)`
-
-
 ---
-
-
