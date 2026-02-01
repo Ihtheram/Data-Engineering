@@ -2,7 +2,7 @@
 Documentation on Python Automation
 
 **[⇐ Python Automation](./README.md)**
-.
+
 ## Regular Expression
 
 A sequence of characters that forms a pattern, used to find or replace specific string which matches with the pattern. For example, you can use regex to extract all email addresses from a document or check if a phone number is formatted correctly. It’s like a super-smart find-and-replace function. 
