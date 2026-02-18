@@ -53,6 +53,10 @@ x3 y3 z3
 * range(initial, terminal)
 * range(initial, terminal, increment)
 
+### * Data Structures *
+* * Dictionary *
+* * List *
+
 ### Random Number Generator
 ```py
 from  random import randint
@@ -168,7 +172,9 @@ finally:
     # statements that will execute irrespective of occurance of an error
 ```
 
+## Pandas
 
+## PySpark
 
 ## Environment
 

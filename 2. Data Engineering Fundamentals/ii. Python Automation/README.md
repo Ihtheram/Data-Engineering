@@ -1,16 +1,15 @@
-# Python Automation
+# **Python Automation**
 Documentation on Python Automation
 
 **[⇐ Data Engineering Fundamentals](../README.md)**
-- [File Manipulation](./i.%20Python%20File%20Manipulation.md)
-- [Regular Expressions](./ii.%20Python%20Regular%20Expressions.md)
-- [Debugging](./iii.%20Debugging.md)
-- [Excel Manipulation](./iii.%20Excel%20Manipulation.md)
-- [JSON Manipulation](./iv.%20JSON%20Manipulation.md)
-
-- [Threading & Scheduling](./v.%20Threading%20&%20Scheduling.md)
-- [Sending & Retrieving Emails](./vi.%20Sending%20&%20Retrieving%20Emails.md)
-- [GUI Automation](./vii.%20GUI%20Automation.md) 
+- [File Manipulation](./1.%20Python%20File%20Manipulation.md)
+- [Regular Expressions](./2.%20Python%20Regular%20Expressions.md)
+- [Debugging](./3.%20Debugging.md)
+- [Excel Manipulation](./4.%20Excel%20Manipulation.md)
+- [**JSON Manipulation**](./5.%20JSON%20Manipulation.md)
+- [Threading & Scheduling](./6.%20Threading%20&%20Scheduling.md)
+- [Sending & Retrieving Emails](./7.%20Sending%20&%20Retrieving%20Emails.md)
+- [GUI Automation](./8.%20GUI%20Automation.md) 
 
 
 ## Automation

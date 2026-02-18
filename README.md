@@ -11,16 +11,16 @@ Study Materials for Data Engineering
 
 * [Data Engineering Fundamentals](./2.%20Data%20Engineering%20Fundamentals/README.md)
     - [Data Engineering Fundamentals](./2.%20Data%20Engineering%20Fundamentals/README.md)
-    - [Python Automation](./2.%20Data%20Engineering%20Fundamentals/ii.%20Python%20Automation.md)
-    - [DBT (Data Build Tool)](./2.%20Data%20Engineering%20Fundamentals/iii.%20DBT.md)
+    - [**Python Automation**](./2.%20Data%20Engineering%20Fundamentals/ii.%20Python%20Automation.md)
+    - [**DBT (Data Build Tool)**](./2.%20Data%20Engineering%20Fundamentals/iii.%20DBT.md)
 
 * [Orchestration & Workflow Tools](./3.%20Orchestration%20&%20Workflow%20Tools/README.md)
-    - [Apache Airflow](./3.%20Orchestration%20&%20Workflow%20Tools/i.%20Apache%20Airflow.md)
+    - [**Apache Airflow**](./3.%20Orchestration%20&%20Workflow%20Tools/i.%20Apache%20Airflow.md)
     - [Jenkins](./3.%20Orchestration%20&%20Workflow%20Tools/ii.%20Jenkins.md)
 
 * [Cloud Platforms & Infrastructure](./4.%20Cloud%20Platforms%20&%20Infrastructure/README.md)
-    - [AWS](./4.%20Cloud%20Platforms%20&%20Infrastructure/i.%20AWS.md)
-    - [Azure](./4.%20Cloud%20Platforms%20&%20Infrastructure/ii.%20Azure.md)
+    - [**AWS**](./4.%20Cloud%20Platforms%20&%20Infrastructure/i.%20AWS.md)
+    - [**Azure**](./4.%20Cloud%20Platforms%20&%20Infrastructure/ii.%20Azure.md)
     - [Terraform](./4.%20Cloud%20Platforms%20&%20Infrastructure/iii.%20Terraform.md)
 
 * [Big Data & Analytics Tools](./5.%20Big%20Data%20&%20Analytics%20Tools/README.md)
@@ -30,7 +30,7 @@ Study Materials for Data Engineering
 
 * [Data Integration & Warehousing](./6.%20Data%20Integration%20&%20Warehousing/README.md)
     - [Fivetran](./6.%20Data%20Integration%20&%20Warehousing/i.%20Fivetran.md)
-    - [Snowflake](./6.%20Data%20Integration%20&%20Warehousing/ii.%20Snowflake.md)
+    - [**Snowflake**](./6.%20Data%20Integration%20&%20Warehousing/ii.%20Snowflake.md)
 
 * [Project-Based Learning](./7.%20Project-Based%20Learning/README.md)
     - [Data Engineering Real World Projects](./7.%20Project-Based%20Learning/i.%20Data%20Engineering%20Real%20World%20Projects.md)
@@ -139,3 +139,6 @@ Data engineering is a blend of machine learning, algorithms, statistics, busines
 2. Storing Data
 3. Finding Missing Values
 4. Wrangling / Munging Data - Extraction and Cleaning
+
+### Activate the  following **env** to run an example code
+`destudyenv\Scripts\activate`

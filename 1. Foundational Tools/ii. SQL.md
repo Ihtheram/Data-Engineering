@@ -87,7 +87,7 @@ END AS alias
     SELECT * FROM numbers;
     ```
 
-* Window Function
+* * **Window Function** *
     ```SQL
     function_name() OVER (
         PARTITION BY partition_expression
@@ -116,14 +116,19 @@ END AS alias
             ``` 
 
     * Analytical Functions
-        * Lead
+        * Lead: Next value of an ordered column
             ```SQL
             LEAD(sales) OVER (ORDER BY date) AS next_day_sales
             ```
 
-        * Lag
+        * Lag: Previous value of an ordered column
             ```SQL
             LAG(sales) OVER (ORDER BY date) AS previous_day_sales
             ```
 
-        
+* * **CTEs** (Common Table Expressions) *
+
+CTEs make code readable and modular.
+
+
+* * **Query Optimization** *
