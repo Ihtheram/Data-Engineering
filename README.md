@@ -5,8 +5,8 @@ Study Materials for Data Engineering
 **[⇐ Artificial Intelligence](https://github.com/Ihtheram/Artificial-Intelligence)**
 
 * [Foundational Tools](./1.%20Foundational%20Tools/README.md)
-    - [Python](./1.%20Foundational%20Tools/i.%20Python.md)
-    - [SQL](./1.%20Foundational%20Tools/ii.%20SQL.md)
+    - [**Python**](./1.%20Foundational%20Tools/i.%20Python.md)
+    - [**SQL**](./1.%20Foundational%20Tools/ii.%20SQL.md)
     - [Git & GitHub](./1.%20Foundational%20Tools/iii.%20Git%20&%20GitHub.md)
 
 * [Data Engineering Fundamentals](./2.%20Data%20Engineering%20Fundamentals/README.md)
@@ -20,16 +20,16 @@ Study Materials for Data Engineering
 
 * [Cloud Platforms & Infrastructure](./4.%20Cloud%20Platforms%20&%20Infrastructure/README.md)
     - [**AWS**](./4.%20Cloud%20Platforms%20&%20Infrastructure/i.%20AWS.md)
-    - [**Azure**](./4.%20Cloud%20Platforms%20&%20Infrastructure/ii.%20Azure.md)
+    - [Azure](./4.%20Cloud%20Platforms%20&%20Infrastructure/ii.%20Azure.md)
     - [Terraform](./4.%20Cloud%20Platforms%20&%20Infrastructure/iii.%20Terraform.md)
 
 * [Big Data & Analytics Tools](./5.%20Big%20Data%20&%20Analytics%20Tools/README.md)
-    - [Spark](./5.%20Big%20Data%20&%20Analytics%20Tools/i.%20Spark.md)
+    - [**Spark**](./5.%20Big%20Data%20&%20Analytics%20Tools/i.%20Spark.md)
     - [Databricks](./5.%20Big%20Data%20&%20Analytics%20Tools/ii.%20Databricks.md)
     - [Power BI](./5.%20Big%20Data%20&%20Analytics%20Tools/iii.%20Power%20BI.md)
 
 * [Data Integration & Warehousing](./6.%20Data%20Integration%20&%20Warehousing/README.md)
-    - [Fivetran](./6.%20Data%20Integration%20&%20Warehousing/i.%20Fivetran.md)
+    - [**Fivetran**](./6.%20Data%20Integration%20&%20Warehousing/i.%20Fivetran.md)
     - [**Snowflake**](./6.%20Data%20Integration%20&%20Warehousing/ii.%20Snowflake.md)
 
 * [Project-Based Learning](./7.%20Project-Based%20Learning/README.md)
