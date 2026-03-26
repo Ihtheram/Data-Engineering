@@ -131,6 +131,45 @@ Wrap up with targeted practice for job readiness.
 | **Data Modeling For Data Engineer Interview** | Deep dive into schema design and optimization. |
 
 
+# 8-week sprint
+
+Phase 1: The Modern Stack (Weeks 1–2)
+Goal: Move from local Python scripts to Cloud-based Data Warehousing.
+ * Get a Cloud Warehouse: Sign up for a Snowflake or Google BigQuery free trial. This is where your data will live.
+ * Master dbt (Data Build Tool): This is the most important tool for a 2026 Data Engineer.
+   * Take the free "dbt Fundamentals" course on their website.
+   * Learn how it turns your SQL queries into modular, version-controlled models.
+ * Advanced SQL Refresh: Ensure you can write Window Functions (RANK(), LEAD(), LAG()) and CTEs (WITH statements) from memory. These are the "LeetCode" of data engineering interviews.
+Phase 2: The "Hero" Portfolio Project (Weeks 3–4)
+Goal: Build one end-to-end pipeline that proves you can handle "messy" real-world data.
+ * The Ingestion (Python): Write a script using the requests library to pull data from a public API (e.g., OpenWeather, Spotify, or a Financial API).
+ * The Storage: Use your Python os and pathlib skills to save that data as a JSON/CSV and upload it to an AWS S3 bucket.
+ * The Transformation (SQL/dbt): Load that data into Snowflake. Use dbt to clean it (e.g., using re patterns via SQL or Python UDFs) and transform it into a "Gold" table ready for analysis.
+ * The Orchestration: Use GitHub Actions or a basic Airflow setup to make this run automatically every day at 8:00 AM.
+Phase 3: The Resume & "The Hook" (Week 5)
+Goal: Optimize your background for ATS (Applicant Tracking Systems).
+ * The GitHub README: Your project shouldn't just be code. Your README needs a system architecture diagram (use Lucidchart or Excalidraw). Recruiters love seeing how data flows from A to B.
+ * The "Sub-Teacher" Pivot: On your resume, describe your teaching as "Technical Documentation and Stakeholder Communication." Data Engineering is 50% technical and 50% explaining complex data logic to people who don't understand it. You have an edge here.
+ * The CSE Degree: Put this at the very top. It is your "Gold Medal" in a competitive market.
+Phase 4: The Application Blitz (Weeks 6–8)
+Goal: Get your first "No" so you can get to your first "Yes."
+ * LinkedIn Strategy: Don't just "Easy Apply." Filter for "Junior Data Engineer" or "Associate Analytics Engineer."
+ * The 2nd Project (Quick Win): Use your openpyxl skills to build a "Legacy to Cloud" tool. Many companies have old Excel data they need to move to the cloud. Showing you can automate this is a huge selling point.
+ * Interview Prep: Practice explaining Idempotency (the ability to run a script twice without breaking the data) and Data Lineage. These are common CSE-level interview questions.
+Your 2026 "Cheat Sheet" for Interviews
+| Mention this... | To prove you are... |
+|---|---|
+| "I used dbt tests for data quality." | Not just a coder, but a reliable engineer. |
+| "I used Docker to containerize my script." | Ready for a modern DevOps environment. |
+| "I handled API rate-limiting in Python." | Experienced with real-world infrastructure. |
+Immediate Next Step
+Go to the dbt Labs website and start their free "dbt Fundamentals" course today. It will take you about 5 hours, and it’s the single most important certification to add to your resume alongside your degree.
+Would you like me to give you a specific API and a "messy data" scenario to use for your Hero Project?
+
+
+
+
+
 ## Data Engineering
 Data engineering is a blend of machine learning, algorithms, statistics, business intelligence, and programming.
 
