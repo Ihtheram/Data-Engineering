@@ -51,6 +51,7 @@ Study Materials for Data Engineering
     - [Data Modeling For Data Engineer Interview](./8.%20Interview%20Preparation/iii.%20Data%20Modeling%20For%20Data%20Engineer%20Interview.md)
 ---
 
+<<<<<<< Updated upstream
 
 ## Data Engineering Learning Roadmap (Recommended Order)
 
@@ -178,6 +179,8 @@ Would you like me to give you a specific API and a "messy data" scenario to use 
 
 
 
+=======
+>>>>>>> Stashed changes
 ## Data Engineering
 Data engineering is a blend of machine learning, algorithms, statistics, business intelligence, and programming.
 
@@ -187,5 +190,12 @@ Data engineering is a blend of machine learning, algorithms, statistics, busines
 3. Finding Missing Values
 4. Wrangling / Munging Data - Extraction and Cleaning
 
+<<<<<<< Updated upstream
 ### Activate the  following **env** to run an example code
 `destudyenv\Scripts\activate`
+=======
+See [Data Engineering Fundamentals](./2.%20Data%20Engineering%20Fundamentals/README.md)
+
+### Activate the  following **env** to run example codes
+`destudyenv\Scripts\activate`
+>>>>>>> Stashed changes
