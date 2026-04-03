@@ -4,38 +4,46 @@ Study Materials for Data Engineering
 ---
 **[⇐ Artificial Intelligence](https://github.com/Ihtheram/Artificial-Intelligence)**
 
-* [Foundational Tools](./1.%20Foundational%20Tools/README.md)
-    - [**Python**](./1.%20Foundational%20Tools/i.%20Python.md)
-    - [**SQL**](./1.%20Foundational%20Tools/ii.%20SQL.md)
-    - [Git & GitHub](./1.%20Foundational%20Tools/iii.%20Git%20&%20GitHub.md)
+1. [Core Foundations](./1.%20Core%20Foundations/README.md)  
+    - [**Python**](./1.%20Core%20Foundations/i.%20Python.md)
+    - [**SQL**](./1.%20Core%20Foundations/ii.%20SQL.md)
+    - [**Git & GitHub**](./1.%20Core%20Foundations/iii.%20Git%20&%20GitHub.md)
 
-* [Data Engineering Fundamentals](./2.%20Data%20Engineering%20Fundamentals/README.md)
-    - [Data Engineering Fundamentals](./2.%20Data%20Engineering%20Fundamentals/README.md)
+2. [Data Engineering Fundamentals](./2.%20Data%20Engineering%20Fundamentals/README.md)
+    - [**Data Engineering Fundamentals**](./2.%20Data%20Engineering%20Fundamentals/README.md)
     - [**Python Automation**](./2.%20Data%20Engineering%20Fundamentals/ii.%20Python%20Automation.md)
-    - [**DBT (Data Build Tool)**](./2.%20Data%20Engineering%20Fundamentals/iii.%20DBT.md)
+    - [**dbt** (Transformation)](./2.%20Data%20Engineering%20Fundamentals/iii.%20DBT.md)
 
-* [Orchestration & Workflow Tools](./3.%20Orchestration%20&%20Workflow%20Tools/README.md)
-    - [**Apache Airflow**](./3.%20Orchestration%20&%20Workflow%20Tools/i.%20Apache%20Airflow.md)
-    - [Jenkins](./3.%20Orchestration%20&%20Workflow%20Tools/ii.%20Jenkins.md)
+3. [Cloud Platforms & Infrastructure](./4.%20Cloud%20Platforms%20&%20Infrastructure/README.md)
+    * [**AWS**](./4.%20Cloud%20Platforms%20&%20Infrastructure/i.%20AWS.md) | [Azure](./4.%20Cloud%20Platforms%20&%20Infrastructure/ii.%20Azure.md)
+    * [*Terraform*](./4.%20Cloud%20Platforms%20&%20Infrastructure/iii.%20Terraform.md)
 
-* [Cloud Platforms & Infrastructure](./4.%20Cloud%20Platforms%20&%20Infrastructure/README.md)
-    - [**AWS**](./4.%20Cloud%20Platforms%20&%20Infrastructure/i.%20AWS.md)
-    - [Azure](./4.%20Cloud%20Platforms%20&%20Infrastructure/ii.%20Azure.md)
-    - [Terraform](./4.%20Cloud%20Platforms%20&%20Infrastructure/iii.%20Terraform.md)
+4. [Data Ingestion](./6.%20Data%20Ingestion/README.md)  
+    - [**Fivetran**](./6.%20Data%20Ingestion/i.%20Fivetran.md)
 
-* [Big Data & Analytics Tools](./5.%20Big%20Data%20&%20Analytics%20Tools/README.md)
-    - [**Spark**](./5.%20Big%20Data%20&%20Analytics%20Tools/i.%20Spark.md)
-    - [Databricks](./5.%20Big%20Data%20&%20Analytics%20Tools/ii.%20Databricks.md)
-    - [Power BI](./5.%20Big%20Data%20&%20Analytics%20Tools/iii.%20Power%20BI.md)
+5. [Storage & Warehousing](./5.%20Storage%20&%20Warehousing/README.md)  
+    - [**Snowflake** (Warehouse)](./5.%20Storage%20&%20Warehousing/i.%20Snowflake.md) |  [Databricks (Lakehouse)](./5.%20Data%20Warehousing/ii.%20Databricks%20(Lakehouse).md)
 
-* [Data Integration & Warehousing](./6.%20Data%20Integration%20&%20Warehousing/README.md)
-    - [**Fivetran**](./6.%20Data%20Integration%20&%20Warehousing/i.%20Fivetran.md)
-    - [**Snowflake**](./6.%20Data%20Integration%20&%20Warehousing/ii.%20Snowflake.md)
+6. [Big Data Processing (Transforming large datasets)](./5.%20Big%20Data%20Processing/README.md)  
+    - [**Spark**](./5.%20Big%20Data%20Processing/i.%20Spark.md) | [Databricks (Spark‑as‑a‑service)](./5.%20Big%20Data%20Processing/ii.%20Databricks%20(Spark‑as‑a‑service).md)
 
+7. [Orchestration & Workflow Tools](./3.%20Orchestration%20&%20Workflow%20Tools/README.md)  
+    * [**Apache Airflow**](./3.%20Orchestration%20&%20Workflow%20Tools/i.%20Apache%20Airflow.md) | [Jenkins](./3.%20Orchestration%20&%20Workflow%20Tools/ii.%20Jenkins.md)
+
+8. [Analytics Tools (Optional)](./5.%20Analytics%20Tools/README.md)  
+    - [Power BI](./5.%20Analytics%20Tools/i.%20Power%20BI.md)
+
+
+
+---
 * [Project-Based Learning](./7.%20Project-Based%20Learning/README.md)
     - [Data Engineering Real World Projects](./7.%20Project-Based%20Learning/i.%20Data%20Engineering%20Real%20World%20Projects.md)
-    - [Databricks Projects](./7.%20Project-Based%20Learning/ii.%20Databricks%20Projects.md)
-    - [AWS Projects / Azure Projects / Snowflake Projects](./7.%20Project-Based%20Learning/iii.%20AWS%20Projects%20or%20Azure%20Projects%20or%20Snowflake%20Projects.md)
+    
+    - [AWS Projects | Azure Projects](./7.%20Project-Based%20Learning/ii.%20AWS%20Projects%20or%20Azure%20Projects.md)
+
+    - [Snowflake Projects](./7.%20Project-Based%20Learning/iii.%20Snowflake%20Projects.md)
+    
+    - [Databricks Projects](./7.%20Project-Based%20Learning/iV.%20Databricks%20Projects.md)
 
 * [Interview Preparation](./8.%20Interview%20Preparation/README.md)
     - [Interview Preparation](./8.%20Interview%20Preparation/README.md)
