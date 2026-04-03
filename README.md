@@ -2,159 +2,215 @@
 Study Materials for Data Engineering
 
 ---
+<p align="center">
+
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+
+  <!-- Data Engineering -->
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+
+  <!-- Cloud -->
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+
+  <!-- Tools -->
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+
+</p>
+
 **[⇐ Artificial Intelligence](https://github.com/Ihtheram/Artificial-Intelligence)**  
 
----
-
-## Data Engineering Fundamentals
-Data engineering is a blend of machine learning, algorithms, statistics, business intelligence, and programming.
-
-* Database
-* Data Lake → raw landing zone
-* Data Lakehouse / Warehouse → cleaned, modeled data
-* Data Marts → business‑friendly analytics layer
-
-### Processing Data
-1. Acquiring Data
-2. Storing Data
-3. Finding Missing Values
-4. Wrangling / Munging Data - Extraction and Cleaning
-
-
-### Data
-A collection of a distinct small unit of information e.g. text, numbers, media, bytes etc.
-
-#### Types of Data
-* Structured - stored in a standardized format like rows and columns, e.g. SQL databases, Exel files etc.
-* Semi-structured - uses **tags** or **markers** to define elements, fields, and records, e.g. XML, JSON
-* Unstructured - unorganized, e.g. no-SQL databases, document files, images, audio, video etc.
-
-### Database
-An organized collection of data stored in a computer system managed by a database management system (DBMS). Most commonly used are:
-* Relational Databases
-* No-SQL Databases
-
-
-### Data Mart
-A subset of structured data from data warehouse, optimized for fast access and simpler analytics for a particular group such as Sales, Marketing, Finance, HR, Operations. It contains only the data that department needs, structured in a way that makes their reporting and analysis easier.
-
----
-### Activate the  following **env** to run an example code
-`destudyenv\Scripts\activate`
-See [Data Engineering Fundamentals](./2.%20Data%20Engineering%20Fundamentals/README.md)
-
----
-## Data Engineering Learning Roadmap
-
-
-### [1. **Core Foundations**](./1.%20Core%20Foundations/README.md)
-These tutorials introduce key concepts and tools used in modern data pipelines.
-
-| Tutorial | Why It Comes First |
-|----------|--------------------|
-| [**Data Engineering Fundamentals**](./2.%20Data%20Engineering%20Fundamentals/README.md) | Covers ETL, data modeling, and pipeline architecture. |
-| [**Python**](./1.%20Core%20Foundations/i.%20Python.md) | Core language for data engineering, automation, and scripting. |
-| [**Python Automation**](./2.%20Data%20Engineering%20Fundamentals/ii.%20Python%20Automation.md) | Applies Python to automate tasks and workflows. |
-| [**SQL**](./1.%20Core%20Foundations/ii.%20SQL.md) | Essential for querying and managing relational databases. |
-| [**Git & GitHub**](./1.%20Core%20Foundations/iii.%20Git%20&%20GitHub.md) | Version control and collaboration — critical for any engineering workflow. |
 
 ---
 
-### [2. **Data Ingestion**](./6.%20Data%20Ingestion/README.md)
-Learn how to move data efficiently.
+# 🚀 Data Engineering Roadmap 2026  
+*A structured, modern learning path for mastering real‑world data engineering.*
 
-| Tutorial | Why It Comes Next |
-|----------|--------------------|
-| [**Fivetran**](./6.%20Data%20Ingestion/i.%20Fivetran.md) | Automates data ingestion from various sources. |
+This repository contains a curated, hands‑on roadmap designed to help you build the skills required to design, build, and maintain scalable data pipelines using modern cloud and open‑source tools.
 
 ---
 
-### [3. **Data Lake**](./4.%20Cloud%20Platforms%20&%20Infrastructure/README.md)
-A centralized repository that stores structured, semi‑structured, and unstructured data in its original format and at any scale. e.g. Amazon S3 Bucket, Azure Data lake, ADLS, GCS
+# 🧭 Overview Diagram (High‑Level Architecture)
 
-| Tutorial | Why It Comes Next |
-|----------|--------------------|
-| [**AWS S3**](./4.%20Cloud%20Platforms%20&%20Infrastructure/i.%20AWS.md) | Most widely used cloud platform for data engineering. |
-| [Azure Data lake](./4.%20Cloud%20Platforms%20&%20Infrastructure/ii.%20Azure.md) | Adds flexibility and multi-cloud experience. |
-| [*Terraform*](./4.%20Cloud%20Platforms%20&%20Infrastructure/iii.%20Terraform.md) | Infrastructure as code — automate cloud resource provisioning. |
-
----
-
-### [4. **Big Data Processing** (Transforming large datasets)](./5.%20Big%20Data%20Processing/README.md)
-Handle large-scale data and build insights.
-
-| Tutorial | Why It Comes Next |
-|----------|--------------------|
-| [**Spark**](./5.%20Big%20Data%20Processing/i.%20Spark.md) | Distributed computing for big data processing. |
-| [Databricks (Spark‑as‑a‑service)](./5.%20Big%20Data%20Processing/ii.%20Databricks%20(Spark‑as‑a‑service).md) | Unified platform for Spark, ML, and analytics. |
-
----
-
-### [5. **Data Warehouse**](./5.%20Storage%20&%20Warehousing/README.md)
-A centralized relational database system that can bring, store, and handle large structured data sets from multiple sources so that organizations can run analytics, reporting, and business intelligence on top of it.
-
-| Tutorial | Why It Comes Next |
-|----------|--------------------|
-| [**BigQuery**](./5.%20Storage%20&%20Warehousing/i.%20BigQuery.md)/[**Snowflake**](./5.%20Storage%20&%20Warehousing/i.%20Snowflake.md) | Cloud data warehouse — scalable and fast. |
-| [Databricks (Lakehouse)](./5.%20Big%20Data%20Processing/ii.%20Databricks%20.md) | A data lake + data warehouse features on top of it.
----
-
-
-### 6. **Transformation**
-These tutorials introduce key concepts and tools used in modern data pipelines.
-
-| Tutorial | Why It Comes Next |
-|----------|--------------------|
-| [**dbt**](./2.%20Data%20Engineering%20Fundamentals/iii.%20DBT.md) | Teaches transformation and modeling in the modern data stack. |
-
----
-
-
-
-### [7. **Orchestration & Workflow Tools**](./3.%20Orchestration%20&%20Workflow%20Tools/README.md)
-Learn how to schedule, monitor, and manage data workflows.
-
-| Tutorial | Why It Comes Next |
-|----------|--------------------|
-| [**Apache Airflow**](./3.%20Orchestration%20&%20Workflow%20Tools/i.%20Apache%20Airflow.md) | Industry-standard tool for orchestrating data pipelines. |
-| [Jenkins](./3.%20Orchestration%20&%20Workflow%20Tools/ii.%20Jenkins.md) | Useful for CI/CD and automating pipeline deployments. |
+```
+                ┌───────────────────────────┐
+                │       Data Sources         │
+                │  APIs • Databases • Files  │
+                └──────────────┬────────────┘
+                               │
+                     (1) Data Ingestion
+                               │
+                ┌──────────────▼─────────────┐
+                │         Data Lake           │
+                │   S3 • ADLS • GCS           │
+                └──────────────┬─────────────┘
+                               │
+                     (2) Big Data Processing
+                               │
+                ┌──────────────▼─────────────┐
+                │       Lakehouse / DW        │
+                │ Databricks • Snowflake • BQ │
+                └──────────────┬─────────────┘
+                               │
+                     (3) Transformation (dbt)
+                               │
+                ┌──────────────▼─────────────┐
+                │     Orchestration (DAGs)    │
+                │ Airflow • Prefect • Dagster │
+                └──────────────┬─────────────┘
+                               │
+                     (4) Analytics & BI
+                               │
+                ┌──────────────▼─────────────┐
+                │     Dashboards & Insights   │
+                │ Power BI • Looker • Tableau │
+                └─────────────────────────────┘
+```
 
 ---
 
-### [8. Analytics Tools (Optional)](./5.%20Analytics%20Tools/README.md)
-Build data insights.
+# 📚 Data Engineering Learning Roadmap
 
-| Tutorial | Why It Comes Next |
-|----------|--------------------|
-| [Power BI](./5.%20Analytics%20Tools/i.%20Power%20BI.md) | Visualization and dashboarding for business insights. |
+## 1️⃣ [**Core Foundations**](./1.%20Core%20Foundations/README.md) 
+> Build the fundamentals every data engineer relies on.
 
----
-
----
-
-
-
-### [Project-Based Learning](./7.%20Project-Based%20Learning/README.md)
-Apply everything you've learned in real-world scenarios.
-
-| Tutorial | Why It Comes Next |
-|----------|--------------------|
-| [Data Engineering Real World Projects](./7.%20Project-Based%20Learning/i.%20Data%20Engineering%20Real%20World%20Projects.md) | Practice building pipelines, dashboards, and ETL flows. |
-| [AWS Projects / Azure Projects](./7.%20Project-Based%20Learning/ii.%20AWS%20Projects%20or%20Azure%20Projects.md) | Cloud-native implementations. |
-| [Snowflake Projects](./7.%20Project-Based%20Learning/iii.%20Snowflake%20Projects.md) |  |
-| [Databricks Projects](./7.%20Project-Based%20Learning/iV.%20Databricks%20Projects.md) | Advanced Spark-based projects. |
+| Topic | Description |
+|-------|-------------|
+| 🧠 [**Data Engineering Fundamentals**](./1.%20Core%20Foundations/README.md) | ETL vs ELT, data modeling (3NF, Star Schema, Data Vault), batch vs streaming, data quality, lineage, idempotency |
+| 🐍 [**Python**](./1.%20Core%20Foundations/i.%20Python.md) | Core language for automation, scripting, and data processing |
+| ⚙️ [**Python Automation**](./1.%20Core%20Foundations/ii.%20Python%20Automation.md) | Automating workflows, file handling, APIs, scheduling |
+| 🗄️ [**SQL**](./1.%20Core%20Foundations/iii.%20SQL.md) | Querying, modeling, window functions, performance tuning |
+| 🌱 [**Git & GitHub**](./1.%20Core%20Foundations/iv.%20Git%20&%20GitHub.md) | Version control, branching, collaboration |
 
 ---
 
-### [Interview Preparation](./8.%20Interview%20Preparation/README.md)
-Wrap up with targeted practice for job readiness.
+## 2️⃣ [**Data Ingestion**](./2.%20Data%20Ingestion/README.md)
+> Learn how data enters your ecosystem.
 
-| Tutorial | Why It Comes Last |
-|----------|--------------------|
-| [Interview Preparation](./8.%20Interview%20Preparation/README.md) | Covers technical and behavioral questions. |
-| [SQL FAANG Problems / Python FAANG Problems](./8.%20Interview%20Preparation/ii.%20SQL%20FAANG%20Problems%20or%20Python%20FAANG%20Problems.md) | High-level problem solving for top-tier interviews. |
-| [Data Modeling For Data Engineer Interview](./8.%20Interview%20Preparation/iii.%20Data%20Modeling%20For%20Data%20Engineer%20Interview.md) | Deep dive into schema design and optimization. |
+| Topic | Description |
+|-------|-------------|
+| 🔌 [**Fivetran**](./2.%20Data%20Ingestion/i.%20Fivetran.md) | Fully managed ELT ingestion |
+| 🌐 [**APIs**](./2.%20Data%20Ingestion/ii.%20APIs.md) | Requests, pagination, rate limits |
+| 📁 [**File ingestion**](./2.%20Data%20Ingestion/iii.%20File%20ingestion.md) | CSV, JSON, Parquet |
 
+---
+
+## 3️⃣ [**Data Lake**](./3.%20Data%20Lake/README.md)  
+> Store raw data at scale.
+
+| Platform | Description |
+|----------|-------------|
+| 🪣 [Amazon **S3**](./3.%20Data%20Lake/i.%20Amazon%20S3.md) | Most widely used data lake storage |
+| 🔷 [Azure **Data Lake (ADLS)**](./3.%20Data%20Lake/ii.%20Azure%20Data%20Lake%20(ADLS).md) | Enterprise‑grade lake storage |
+| ☁️ [**Google Cloud Storage (GCS)**](./3.%20Data%20Lake/ii.%20Google%20Cloud%20Storage%20(GCS).md) | Scalable object storage |
+
+---
+
+## 4️⃣ [**Cloud Infrastructure & IaC**](./4.%20Cloud%20Infrastructure%20&%20IaC/README.md)   
+> Automate and manage cloud resources.
+
+| Tool | Description |
+|------|-------------|
+| 🏗️ [**Terraform**](./4.%20Cloud%20Infrastructure%20&%20IaC/i.%20Terraform.md) | Infrastructure as Code (IaC) |
+| 🔐 [**IAM Basics**](./4.%20Cloud%20Infrastructure%20&%20IaC/ii.%20IAM%20Basics.md) | Identity, roles, permissions |
+| 💻 [**Cloud CLI Tools**](./4.%20Cloud%20Infrastructure%20&%20IaC/iii.%20Cloud%20CLI%20Tools.md) | AWS CLI, Azure CLI, gcloud |
+
+---
+
+## 5️⃣ [**Big Data Processing**](./5.%20Big%20Data%20Processing/README.md)  
+> Process large datasets efficiently.
+
+| Tool | Description |
+|------|-------------|
+| 🔥 [Apache **Spark**](./5.%20Big%20Data%20Processing/i.%20Apache%20Spark.md) | Distributed compute engine |
+| 🧱 [**Databricks (Spark‑as‑a‑Service)**](./5.%20Big%20Data%20Processing/ii.%20Databricks%20(Spark‑as‑a‑service).md) | Managed Spark + ML + SQL |
+
+---
+
+## 6️⃣ [**Data Warehouse**](./6.%20Data%20Warehouse/README.md)  
+> Store structured, analytics‑ready data.
+
+| Platform | Description |
+|----------|-------------|
+| 🏛️ [Google **BigQuery**](./6.%20Data%20Warehouse/i.%20Google%20BigQuery.md) | Serverless, scalable warehouse |
+| ❄️ [**Snowflake**](./6.%20Data%20Warehouse/ii.%20Snowflake.md) | Cloud‑native elastic warehouse |
+
+---
+
+## 7️⃣ [**Lakehouse**](./7.%20Lakehouse/README.md)    
+> Combine the best of lakes + warehouses.
+
+| Platform | Description |
+|----------|-------------|
+| 🧱 [**Databricks Lakehouse**](./7.%20Lakehouse/i.%20Databricks%20Lakehouse.md) | Unified platform for data + analytics |
+| 🔺 [**Delta Lake**](./7.%20Lakehouse/ii.%20Delta%20Lake.md) | ACID tables on data lakes |
+
+---
+
+## 8️⃣ [**Transformation (ELT)**](./8.%20Transformation%20(ELT)/README.md)    
+> Model data into clean, analytics‑ready layers.
+
+| Tool | Description |
+|------|-------------|
+| 🧩 [**dbt**](./8.%20Transformation%20(ELT)/i.%20dbt.md) | SQL‑based transformations, testing, documentation |
+
+---
+
+## 9️⃣ [**Orchestration & Workflow Management**](./9.%20Orchestration%20&%20Workflow%20Management/README.md)  
+> Automate pipelines and manage dependencies.
+
+| Tool | Description |
+|------|-------------|
+| ⏱️ [Apache **Airflow**](./9.%20Orchestration%20&%20Workflow%20Management/i.%20Apache%20Airflow.md) | Industry‑standard DAG orchestrator |
+| 🌤️ **Prefect** | Modern orchestration with Pythonic flows |
+| 🌀 **Dagster** | Data‑aware orchestration |
+
+---
+
+## 🔟 **CI/CD & DevOps for Data Engineering**  
+> Automate deployments and ensure reliability.
+
+| Tool | Description |
+|------|-------------|
+| 🐙 [GitHub **Actions**](./10.%20Orchestration%20&%20Workflow%20Tools/i.%20GitHub%20Actions.md) | CI/CD automation |
+| 🔧 [**Jenkins**](./10.%20Orchestration%20&%20Workflow%20Tools/ii.%20Jenkins.md) | Build & deployment pipelines |
+| 🐳 [**Docker**](./10.%20Orchestration%20&%20Workflow%20Tools/iii.%20Docker.md) | Containerization for reproducible environments |
+
+---
+
+## 1️⃣1️⃣ [**Analytics & BI (Optional)**](./11.%20Analytics%20&%20BI/README.md) 
+> Present insights to stakeholders.
+
+| Tool | Description |
+|------|-------------|
+| 📊 [**Power BI**](./11.%20Analytics%20&%20BI/i.%20Power%20BI.md) | Business dashboards |
+| 📈 **Tableau** | Visual analytics |
+| 🔍 **Looker** | Semantic modeling + BI |
+
+---
+
+# 🧪 How to Use This Repository  
+- Each folder contains hands‑on tutorials and examples.  
+- Follow the roadmap to have the smoothest learning experience.  
+- Use the environment activation command when running examples:
+
+```
+destudyenv\Scripts\activate
+```
+
+---
+
+# 🎯 Goal  
+By the end of this roadmap, you will be able to design, build, orchestrate, and deploy production‑grade data pipelines using modern cloud tools and best practices.
+
+---
 
 ## 8-week sprint
 
