@@ -40,38 +40,38 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 # 🧭 Overview Diagram (High‑Level Architecture)
 
 ```
-                ┌───────────────────────────┐
-                │       Data Sources         │
-                │  APIs • Databases • Files  │
-                └──────────────┬────────────┘
-                               │
-                     (1) Data Ingestion
-                               │
-                ┌──────────────▼─────────────┐
-                │         Data Lake           │
-                │   S3 • ADLS • GCS           │
-                └──────────────┬─────────────┘
-                               │
-                     (2) Big Data Processing
-                               │
-                ┌──────────────▼─────────────┐
-                │       Lakehouse / DW        │
-                │ Databricks • Snowflake • BQ │
-                └──────────────┬─────────────┘
-                               │
-                     (3) Transformation (dbt)
-                               │
-                ┌──────────────▼─────────────┐
-                │     Orchestration (DAGs)    │
-                │ Airflow • Prefect • Dagster │
-                └──────────────┬─────────────┘
-                               │
-                     (4) Analytics & BI
-                               │
-                ┌──────────────▼─────────────┐
-                │     Dashboards & Insights   │
-                │ Power BI • Looker • Tableau │
-                └─────────────────────────────┘
+                   ┌───────────────────────────┐
+                   │       Data Sources        │
+                   │  APIs • Databases • Files │
+                   └─────────────┬─────────────┘
+                                 │
+                    (1) Data Ingestion (Fivetran)
+                                 │
+                   ┌─────────────▼──────────────┐
+                   │         Data Lake          │
+                   │       S3 • ADLS • GCS      │
+                   └─────────────┬──────────────┘
+                                 │
+                  (2) Big Data Processing (Spark)
+                                 │
+                ┌────────────────▼──────────────────┐
+                │    Lakehouse / Data Warehouse     │
+                │ Databricks • Snowflake • BigQuery │
+                └────────────────┬──────────────────┘
+                                 │
+                       (3) Transformation (dbt)
+                                 │
+                  ┌──────────────▼──────────────┐
+                  │     Orchestration (DAGs)    │
+                  │ Airflow • Prefect • Dagster │
+                  └──────────────┬──────────────┘
+                                 │
+                        (4) Analytics & BI
+                                 │
+                  ┌──────────────▼──────────────┐
+                  │     Dashboards & Insights   │
+                  │ Power BI • Looker • Tableau │
+                  └─────────────────────────────┘
 ```
 
 ---
