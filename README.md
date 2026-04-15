@@ -83,7 +83,7 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Topic | Description |
 |-------|-------------|
-| 🧠 [**Data Engineering Fundamentals**](./1.%20Core%20Foundations/README.md) | ETL vs ELT, data modeling (3NF, Star Schema, Data Vault), batch vs streaming, data quality, lineage, idempotency |
+| 🧠 [**Data Engineering Core Concepts**](./1.%20Core%20Foundations/README.md) | ETL vs ELT, data modeling (3NF, Star Schema, Data Vault), batch vs streaming, data quality, lineage, idempotency |
 | 🐍 [**Python**](./1.%20Core%20Foundations/i.%20Python.md) | Core language for automation, scripting, and data processing |
 | ⚙️ [**Python Automation**](./1.%20Core%20Foundations/ii.%20Python%20Automation.md) | Automating workflows, file handling, APIs, scheduling |
 | 🗄️ [**SQL**](./1.%20Core%20Foundations/iii.%20SQL.md) | Querying, modeling, window functions, performance tuning |
@@ -159,7 +159,7 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Tool | Description |
 |------|-------------|
-| 🧩 [**dbt**](./8.%20Transformation%20(ELT)/i.%20dbt.md) | SQL‑based transformations, testing, documentation |
+| 🧩 [**dbt**](./8.%20Transformation%20(ELT)/README.md) | SQL‑based transformations, testing, documentation |
 
 ---
 
