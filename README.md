@@ -45,21 +45,22 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
                    │  APIs • Databases • Files │
                    └─────────────┬─────────────┘
                                  │
-                    (1) Data Ingestion (Fivetran)
+       (1) Data Ingestion (Databricks Auto Loader, Fivetran)
                                  │
                    ┌─────────────▼──────────────┐
                    │         Data Lake          │
                    │       S3 • ADLS • GCS      │
                    └─────────────┬──────────────┘
                                  │
-                  (2) Big Data Processing (Spark)
+     (2) Big Data Processing [Databricks (Spark‑as‑a‑Service)]
                                  │
                 ┌────────────────▼──────────────────┐
                 │    Lakehouse / Data Warehouse     │
-                │ Databricks • Snowflake • BigQuery │
+                │     Databricks SQL Warehouse      │
+                │      • Snowflake • BigQuery       │
                 └────────────────┬──────────────────┘
                                  │
-                       (3) Transformation (dbt)
+              (3) Transformation (Databricks SQL, dbt)
                                  │
                   ┌──────────────▼──────────────┐
                   │     Orchestration (DAGs)    │
@@ -96,8 +97,8 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Topic | Description |
 |-------|-------------|
-| 🔌 [**Databricks: Auto Loader**](./2.%20Data%20Ingestion/i.%20Fivetran.md) | Incremental file ingestion engine built into Spark Structured Streaming |
-| 🔌 [Lakeflow Connect]() | Managed ingestion service inside Databricks Lakeflow |
+| 🧱 [**Databricks: Auto Loader**](./2.%20Data%20Ingestion/i.%20Fivetran.md) | Incremental file ingestion engine built into Spark Structured Streaming |
+| 🧱 [Lakeflow Connect]() | Managed ingestion service inside Databricks Lakeflow |
 | 🔌 [Fivetran](./2.%20Data%20Ingestion/i.%20Fivetran.md) | Fully managed ELT ingestion |
 | 🌐 [APIs](./2.%20Data%20Ingestion/ii.%20APIs.md) | Requests, pagination, rate limits |
 | 📁 [File ingestion](./2.%20Data%20Ingestion/iii.%20File%20ingestion.md) | CSV, JSON, Parquet |
@@ -141,7 +142,7 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Platform | Description |
 |----------|-------------|
-| [**Databricks** SQL Warehouse](./6.%20Data%20Warehouse/i.%20Databricks%SQL%Warehouse.md) | Python based warehouse |
+| 🧱 [**Databricks** SQL Warehouse](./6.%20Data%20Warehouse/i.%20Databricks%SQL%Warehouse.md) | Python based warehouse |
 | 🏛️ [Google BigQuery](./6.%20Data%20Warehouse/i.%20Google%20BigQuery.md) | Serverless, scalable warehouse |
 | ❄️ [Snowflake](./6.%20Data%20Warehouse/ii.%20Snowflake.md) | Cloud‑native elastic warehouse |
 
@@ -162,7 +163,7 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Tool | Description |
 |------|-------------|
-| 🧩 [**Databricks SQL**](./8.%20Transformation%20(ELT)/Databricks%20SQL.md) | Used with Delta Lake |
+| 🧱 [**Databricks SQL**](./8.%20Transformation%20(ELT)/Databricks%20SQL.md) | Used with Delta Lake |
 | 🧩 [dbt](./8.%20Transformation%20(ELT)/dbt.md) | SQL‑based transformations, testing, documentation |
 
 ---
@@ -173,8 +174,8 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 | Tool | Description |
 |------|-------------|
 | ⏱️ [**Apache Airflow**](./9.%20Orchestration%20&%20Workflow%20Management/i.%20Apache%20Airflow.md) | Industry‑standard DAG orchestrator |
-| [Databricks Workflows](./9.%20Orchestration%20&%20Workflow%20Management/i.%20Apache%20Airflow.md) |  |
-| [Databricks Lakeflow]() |  |
+| 🧱 [Databricks Workflows](./9.%20Orchestration%20&%20Workflow%20Management/i.%20Apache%20Airflow.md) |  |
+| 🧱 [Databricks Lakeflow]() |  |
 | 🌤️ **Prefect** | Modern orchestration with Pythonic flows |
 | 🌀 **Dagster** | Data‑aware orchestration |
 
@@ -199,13 +200,15 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 | 📊 [**Power BI**](./11.%20Analytics%20&%20BI/i.%20Power%20BI.md) | Business dashboards |
 | 📈 **Tableau** | Visual analytics |
 | 🔍 **Looker** | Semantic modeling + BI |
+| 🧱 **Databrick AI/BI** | Native BI tool to Databricks |
+
 
 ## 1️⃣2️⃣ [**Governance**](./11.%20Analytics%20&%20BI/README.md) 
 > Present insights to stakeholders.
 
 | Tool | Description |
 |------|-------------|
-| 📊 [**Unity Catalog**](./11.%20Analytics%20&%20BI/i.%20Power%20BI.md) | ontrolling who can access what, how, and with what level of security. |
+| 🧱 [**Unity Catalog**](./11.%20Analytics%20&%20BI/i.%20Power%20BI.md) | ontrolling who can access what, how, and with what level of security. |
 
 ---
 
