@@ -97,8 +97,8 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Topic | Description |
 |-------|-------------|
-| 🧱 [**Databricks: Auto Loader**](./2.%20Data%20Ingestion/i.%20Fivetran.md) | Incremental file ingestion engine built into Spark Structured Streaming |
-| 🧱 [Lakeflow Connect]() | Managed ingestion service inside Databricks Lakeflow |
+| 🧱 [**Databricks Auto Loader**](./2.%20Data%20Ingestion/i.%20Fivetran.md) | Incremental file ingestion engine built into Spark Structured Streaming |
+| 🧱 [Databricks Lakeflow Connect]() | Managed ingestion service inside Databricks Lakeflow |
 | 🔌 [Fivetran](./2.%20Data%20Ingestion/i.%20Fivetran.md) | Fully managed ELT ingestion |
 | 🌐 [APIs](./2.%20Data%20Ingestion/ii.%20APIs.md) | Requests, pagination, rate limits |
 | 📁 [File ingestion](./2.%20Data%20Ingestion/iii.%20File%20ingestion.md) | CSV, JSON, Parquet |
@@ -132,7 +132,7 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Tool | Description |
 |------|-------------|
-| 🧱 [**Databricks (Spark‑as‑a‑Service)**](./5.%20Big%20Data%20Processing/ii.%20Databricks%20(Spark‑as‑a‑service).md) | Managed Spark + ML + SQL |
+| 🧱 [**Databricks** (Spark‑as‑a‑Service)](./5.%20Big%20Data%20Processing/ii.%20Databricks%20(Spark‑as‑a‑service).md) | Managed Spark + ML + SQL |
 | 🔥 [Apache Spark](./5.%20Big%20Data%20Processing/i.%20Apache%20Spark.md) | Distributed compute engine |
 
 ---
@@ -142,7 +142,7 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Platform | Description |
 |----------|-------------|
-| 🧱 [**Databricks** SQL Warehouse](./6.%20Data%20Warehouse/i.%20Databricks%SQL%Warehouse.md) | Python based warehouse |
+| 🧱 [**Databricks SQL** Data Warehousing](./6.%20Data%20Warehouse/i.%20Databricks%SQL%Warehouse.md) | Python based warehouse |
 | 🏛️ [Google BigQuery](./6.%20Data%20Warehouse/i.%20Google%20BigQuery.md) | Serverless, scalable warehouse |
 | ❄️ [Snowflake](./6.%20Data%20Warehouse/ii.%20Snowflake.md) | Cloud‑native elastic warehouse |
 
@@ -186,7 +186,7 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 
 | Tool | Description |
 |------|-------------|
-| 🐙 [GitHub **Actions**](./10.%20Orchestration%20&%20Workflow%20Tools/i.%20GitHub%20Actions.md) | CI/CD automation |
+| 🐙 [**GitHub Actions**](./10.%20Orchestration%20&%20Workflow%20Tools/i.%20GitHub%20Actions.md) | CI/CD automation |
 | 🔧 [**Jenkins**](./10.%20Orchestration%20&%20Workflow%20Tools/ii.%20Jenkins.md) | Build & deployment pipelines |
 | 🐳 [**Docker**](./10.%20Orchestration%20&%20Workflow%20Tools/iii.%20Docker.md) | Containerization for reproducible environments |
 
@@ -198,9 +198,9 @@ This repository contains a curated, hands‑on roadmap designed to help you buil
 | Tool | Description |
 |------|-------------|
 | 📊 [**Power BI**](./11.%20Analytics%20&%20BI/i.%20Power%20BI.md) | Business dashboards |
-| 📈 **Tableau** | Visual analytics |
-| 🔍 **Looker** | Semantic modeling + BI |
-| 🧱 **Databrick AI/BI** | Native BI tool to Databricks |
+| 📈 Tableau | Visual analytics |
+| 🔍 Looker | Semantic modeling + BI |
+| 🧱 Databricks AI/BI | Native BI tool to Databricks |
 
 
 ## 1️⃣2️⃣ [**Governance**](./11.%20Analytics%20&%20BI/README.md) 
